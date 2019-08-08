@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 @Service
 public interface AccountNumberGenerator {
 
-	Integer generateNumber();
+	Long generateNumber();
 
 	Character generateCharacter();
 

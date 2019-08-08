@@ -19,7 +19,7 @@ public class NumGenServiceMockitoTests {
 
 	@Test
 	public void numGenTest() {
-		assertTrue(numGen.generateNumber() instanceof Integer);
+		assertTrue(numGen.generateNumber() instanceof Long);
 	}
 
 	@Test
