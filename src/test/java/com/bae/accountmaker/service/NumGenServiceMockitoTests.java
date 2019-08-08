@@ -2,7 +2,6 @@ package com.bae.accountmaker.service;
 
 import static org.junit.Assert.assertTrue;
 
-import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
@@ -32,7 +31,6 @@ public class NumGenServiceMockitoTests {
 		assertTrue(numGen.generateAccount() instanceof String);
 	}
 
-	@Ignore
 	@Test
 	public void accountGenRegExTest() {
 		assertTrue(numGen.generateAccount().matches(regEx));
